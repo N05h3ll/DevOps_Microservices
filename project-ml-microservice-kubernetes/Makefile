@@ -15,6 +15,8 @@ install:
 	pip install --upgrade pip &&\
 		pip install -r requirements.txt
 
+insall-linter: 
+	apt-get update && apt-get install haskell stack
 test:
 	# Additional, optional, tests could go here
 	#python -m pytest -vv --cov=myrepolib tests/*.py
