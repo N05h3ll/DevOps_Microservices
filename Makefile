@@ -15,7 +15,7 @@ install:
 	pip install --upgrade pip &&\
 		pip install -r requirements.txt
 
-insall-linter: 
+install-linter: 
 	apt-get update && apt-get install haskell stack
 test:
 	# Additional, optional, tests could go here
