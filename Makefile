@@ -16,7 +16,9 @@ install:
 		pip install -r requirements.txt
 
 install-linter: 
-	apt-get update && apt-get install haskell stack
+	wget https://github.com/hadolint/hadolint/releases/download/v1.18.0/hadolint-Linux-x86_64
+	chmod a+x hadolint-Linux-x86_64
+	mv hadolint-Linux-x86_64 /usr/bin/hadolint
 test:
 	# Additional, optional, tests could go here
 	#python -m pytest -vv --cov=myrepolib tests/*.py
