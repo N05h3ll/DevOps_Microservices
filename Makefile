@@ -18,6 +18,7 @@ install:
 install-linters: 
 	wget https://github.com/hadolint/hadolint/releases/download/v1.18.0/hadolint-Linux-x86_64
 	chmod a+x hadolint-Linux-x86_64
+	mv hadolint-Linux-x86_64 hadolint
 	pip install pylint --user
 test:
 	# Additional, optional, tests could go here
