@@ -15,12 +15,12 @@ jobs:
                 name: Installing Dependencies
                 command: |
                   python3 -m venv venv
-                  . venv/bin/activate
+                  source venv/bin/activate
                   make install
             - run:
                 name: Install Linters
                 command: |
-                  . venv/bin/activate
+                  source venv/bin/activate
                   make install-linters
             - save_cache:
                   paths:
@@ -30,7 +30,7 @@ jobs:
             - run:
                 name: Lint
                 command: |
-                    . venv/bin/activate
+                    source venv/bin/activate
                     make lint
 
 workflows:
