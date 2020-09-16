@@ -4,10 +4,10 @@
 
 # Step 1:
 # Build image and add a descriptive tag
-docker build -t n05h3ll/DevOps_Microservices_Project
+docker build -t n05h3ll/devops_microservices_project
 # Step 2: 
 # List docker images
 docker image ls
 # Step 3: 
 # Run flask app
-docker run -idt -p 8000:80 DevOps_Microservices_Project
+docker run -idt -p 8000:80 devops_microservices_project
