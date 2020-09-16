@@ -1,4 +1,5 @@
 ## Cloud DevOps ND - C4- Microservices at Scale using AWS & Kubernetes - Supporting Material and Project Starter
+[![N05h3ll](https://circleci.com/gh/N05h3ll/DevOps_Microservices.svg?style=svg)](https://circleci.com/gh/N05h3ll/DevOps_Microservices)
 
 This repository is associated with Cloud DevOps ND - Course 04 - Microservices at Scale using AWS & Kubernetes. In here, you'll find:
 1. Supporting material used in the video demonstration in the course 
