@@ -10,3 +10,4 @@ docker build -t DevOps_Microservices_Project
 docker image ls
 # Step 3: 
 # Run flask app
+docker run -idt -p 8000:80 DevOps_Microservices_Project
