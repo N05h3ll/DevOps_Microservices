@@ -12,14 +12,14 @@ setup:
 
 install:
 	# This should be run from inside a virtualenv
-	pip install --upgrade pip &&\
-		pip install -r requirements.txt
+	pip install --upgrade pip --user &&\
+		pip install -r requirements.txt --user
 
 install-linters: 
 	wget https://github.com/hadolint/hadolint/releases/download/v1.18.0/hadolint-Linux-x86_64
 	chmod a+x hadolint-Linux-x86_64
 	mv hadolint-Linux-x86_64 /usr/bin/hadolint
-	pip install pylint
+	pip install pylint --user
 test:
 	# Additional, optional, tests could go here
 	#python -m pytest -vv --cov=myrepolib tests/*.py
