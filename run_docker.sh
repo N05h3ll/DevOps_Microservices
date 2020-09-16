@@ -4,7 +4,7 @@
 
 # Step 1:
 # Build image and add a descriptive tag
-docker build -t DevOps_Microservices_Project
+docker build -t n05h3ll/DevOps_Microservices_Project
 # Step 2: 
 # List docker images
 docker image ls
