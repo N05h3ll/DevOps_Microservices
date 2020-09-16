@@ -19,7 +19,7 @@ install-linters:
 	wget https://github.com/hadolint/hadolint/releases/download/v1.18.0/hadolint-Linux-x86_64
 	chmod a+x hadolint-Linux-x86_64
 	mv hadolint-Linux-x86_64 hadolint
-	pip install pylint
+	pip install pylint==2.6.0
 test:
 	# Additional, optional, tests could go here
 	#python -m pytest -vv --cov=myrepolib tests/*.py
