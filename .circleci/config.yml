@@ -1,25 +1,3 @@
-# version: 2.1
-
-# jobs:
-#   Test:
-#     docker:
-#       - image: circleci/python:3.7.3
-#     steps:
-#       - checkout
-#       - run: make install
-#       - run: make install-linters
-#       - run: make lint
-  
-  
-# # Orchestrate our job run sequence
-# workflows:
-#   Test:
-#     jobs:
-#       - Test
-
-
-
-
 version: 2.1 
 jobs:
   build:
