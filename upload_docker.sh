@@ -6,7 +6,7 @@
 # Step 1:
 # Create dockerpath
 # dockerpath=<your docker ID/path>
-dockerpath=n05h3ll/DevOps_Microservices_Project
+dockerpath=n05h3ll/devops_microservices_project
 # Step 2:  
 # Authenticate & tag
 echo "Docker ID and Image: $dockerpath"
