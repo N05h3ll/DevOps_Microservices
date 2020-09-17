@@ -10,7 +10,6 @@ COPY . /app/
 # Install packages from requirements.txt
 # hadolint ignore=DL3013
 RUN make install
-RUN make install-linters
 RUN make lint
 ## Step 4:
 # Expose port 80

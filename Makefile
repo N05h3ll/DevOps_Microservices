@@ -15,10 +15,6 @@ install:
 	pip install --upgrade pip --user &&\
 		pip install -r requirements.txt --user
 
-install-linters: 
-	wget https://github.com/hadolint/hadolint/releases/download/v1.18.0/hadolint-Linux-x86_64
-	chmod a+x hadolint-Linux-x86_64
-	mv hadolint-Linux-x86_64 hadolint
 test:
 	# Additional, optional, tests could go here
 	#python -m pytest -vv --cov=myrepolib tests/*.py
