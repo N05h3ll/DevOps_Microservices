@@ -15,4 +15,6 @@ kubectl run devops-microservices-project --image=$dockerpath --port=8000
 kubectl get pods
 # Step 4:
 # Forward the container port to a host
+# Sleep 20 seconds to allow the pod to be available
+sleep 20s
 kubectl port-forward devops-microservices-project 8000:80
