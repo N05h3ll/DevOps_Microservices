@@ -15,4 +15,4 @@ kubectl run devops-microservices-project --image=$dockerpath --port=8000
 kubectl get pods
 # Step 4:
 # Forward the container port to a host
-kubectl port-forward devops_microservices_project 8000:80
+kubectl port-forward devops-microservices-project 8000:80
