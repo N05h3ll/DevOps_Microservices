@@ -53,18 +53,18 @@ This repository is associated with Cloud DevOps ND - Course 04 - Microservices a
 
 2- Run **run_docker.sh** script using:
 
-    ```bash
-         ./run_docker.sh
-         #OR
-         sh run_docker.sh
-    ```
+```bash
+./run_docker.sh
+#OR
+sh run_docker.sh
+```
 
 If you want to upload the image to your docker hub repository please update the dockerpath variable in the **upload_docker.sh** with your data.
 
 3- 2- Run **run_kubernetes.sh** script using:
 
-    ```bash
-         ./run_kubernetes.sh
-         #OR
-         sh run_kubernetes.sh
-    ```
+```bash
+./run_kubernetes.sh
+#OR
+sh run_kubernetes.sh
+```
